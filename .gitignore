@@ -10,6 +10,18 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+DartConfiguration.tcl
+
+# Build artifacts
+*.a
+*.o
+*.so
+*.dylib
+pyl_tests
+pyl_tests-*.cmake
+
+# Build directory
+build/
 
 # CLion
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
